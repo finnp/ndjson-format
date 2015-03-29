@@ -26,5 +26,8 @@
     "minimist": "^1.1.1",
     "ndjson": "^1.3.0"
   },
-  "preferGlobal": true
+  "preferGlobal": true,
+  "devDependencies": {
+    "koopashell": "^1.0.1"
+  }
 }

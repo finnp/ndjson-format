@@ -1,4 +1,4 @@
-# ndjson-format
+# ndjson-format [![Build Status](https://travis-ci.org/finnp/ndjson-format.svg?branch=master)](https://travis-ci.org/finnp/ndjson-format)
 [![NPM](https://nodei.co/npm/ndjson-format.png)](https://nodei.co/npm/ndjson-format/)
 
 format your json objects with an es6 template string. you currently need iojs for it to run.
