@@ -15,11 +15,11 @@ process.stdin
   }))
 
 function write(chunk, env, cb) {
-    // going meta
-    eval(`
-      (function (obj) {
-        console.log(\`${format}\`)
-      }).call(${JSON.stringify(chunk)})
-    `)
-    cb()
+  // going meta
+  eval(`
+    (function () {
+      console.log(\`${format}\`)
+    }).call(${JSON.stringify(chunk)})
+  `)
+  cb()
 }
